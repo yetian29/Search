@@ -1,0 +1,140 @@
+.navbar-google {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+ /* unvisited link */
+a:link { 
+  text-decoration: none;
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+} 
+
+.navbar-item-google {
+    margin: 25px;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+}
+
+.rounded-input {
+   
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 584px;
+    
+
+}
+.rounded1-input {
+   
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 584px;
+    margin-top: 20px;
+    
+
+}
+
+.btn-google {
+    
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    padding: 25px;
+
+}
+
+.icon-adv {
+    padding: 20px;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.font1-adv {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 15px;
+    padding: 20px;
+    color: #d93025;
+}
+.font2-adv {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.row-input {
+    display: flex;
+    flex-direction: row;
+}
+.row-left {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   padding: 35px;
+   width: 250px;
+}
+
+.row-right {
+    width: 480px;
+    padding: 28px;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 700px;
+}
+
+.btn-adv {
+    
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+}
